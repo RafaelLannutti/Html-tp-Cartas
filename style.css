@@ -1,0 +1,136 @@
+html{
+    background-image: url(img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+
+
+}
+h2{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;    
+    text-align: center;
+    color:white;
+
+}
+
+body{
+    margin: 0;
+
+    
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  
+  background-image: url(img/Top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; 
+  background-position: center top;
+
+ 
+    
+    
+  }
+  
+
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  li:not(:last-child):after {
+    content: "|";
+    position: absolute;
+    right: -10px;
+  }
+  nav ul li a {
+    font-family: "Arial", sans-serif; 
+    color:white; 
+    font-size: 16px;
+  }
+
+#cartas{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#cartas img{
+    width:300px;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    border-style:solid;
+    border-color:black ;
+           
+
+}
+
+
+
+footer{
+  
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url(img/Bottom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+  text-align: left;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#formulario form{
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+#iconos img{
+  max-width: 50px;
+  max-height: 50px;
+  margin-right:  100px;
+  margin-top: 25px;
+
+
+  
+}

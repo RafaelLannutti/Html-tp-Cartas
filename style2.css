@@ -1,0 +1,224 @@
+html{
+    background-image: url(img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Titillium Web", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+#main-nav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+    height: 30px;
+    
+    background-image: url(img/Top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; 
+    background-position: center top;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#main-nav li {
+    margin: 0 10px;
+    position: relative;
+}
+
+#main-nav li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -10px;
+}
+
+#main-nav li a {
+    font-family: "Arial", sans-serif; 
+    color:white; 
+    font-size: 16px;
+}
+
+
+#juegosespañolas h1{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+    color:white;
+
+}
+#juegosespañolas ul{
+    list-style-type: none;
+    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#juegosespañolas li{
+    margin: 10px;
+}
+
+#truco h2{
+    margin: 35px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+#truco h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+#truco div{
+    font-size: 20px;
+    margin: 30px;
+}
+#truco img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-width: 600px;
+    border-style:solid;
+    border-color:black ;
+
+}
+
+#escoba h2{
+    margin: 35px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+#escoba h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+#escoba div{
+    font-size: 20px;
+    margin: 30px;
+}
+#escoba img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-width: 600px;
+    border-style:solid;
+    border-color:black ;
+
+}
+#chinchon h2{
+    margin: 35px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+#chinchon h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+#chinchon div{
+    font-size: 20px;
+    margin: 30px;
+}
+#chinchon img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-width: 600px;
+    border-style:solid;
+    border-color:black ;
+
+}
+
+#blackjack h2{
+    margin: 35px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+#blackjack h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+#blackjack div{
+    font-size: 20px;
+    margin: 30px;
+}
+#blackjack img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-width: 600px;
+    border-style:solid;
+    border-color:black ;
+
+}
+
+#poker h2{
+    margin: 35px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+#poker h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+#poker div{
+    font-size: 20px;
+    margin: 30px;
+}
+#poker img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-width: 600px;
+    border-style:solid;
+    border-color:black ;
+
+}
+
+#bridge h2{
+    margin: 35px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+#bridge h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+#bridge div{
+    font-size: 20px;
+    margin: 30px;
+}
+#bridge img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-width: 600px;
+    border-style:solid;
+    border-color:black ;
+
+}
